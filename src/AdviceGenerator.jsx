@@ -24,7 +24,7 @@ const AdviceGenerator = () => {
 
   useEffect(() => {
     fetchAdvice();
-  });
+  }, []);
 
   return (
     <>
